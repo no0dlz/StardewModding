@@ -15,6 +15,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_root", "_root", "{1CC0B772
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "internal", "internal", "{ECB5C079-F2E0-4E19-B480-183FC7263463}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Mods", "Mods", "{598DD8FB-1B3B-454C-AAC3-68ACC6FA6569}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Mods-OLD", "Mods-OLD", "{40EDA02D-DC97-4318-BE92-2365755E98DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core\Core.csproj", "{772C9A02-4E3D-42DD-95BE-D2C275F4DEB8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,9 +31,17 @@ Global
 		{093B7801-1D26-437A-8E57-C7921DA4BE2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{093B7801-1D26-437A-8E57-C7921DA4BE2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{093B7801-1D26-437A-8E57-C7921DA4BE2F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{772C9A02-4E3D-42DD-95BE-D2C275F4DEB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{772C9A02-4E3D-42DD-95BE-D2C275F4DEB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{772C9A02-4E3D-42DD-95BE-D2C275F4DEB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{772C9A02-4E3D-42DD-95BE-D2C275F4DEB8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{093B7801-1D26-437A-8E57-C7921DA4BE2F} = {40EDA02D-DC97-4318-BE92-2365755E98DE}
+		{772C9A02-4E3D-42DD-95BE-D2C275F4DEB8} = {ECB5C079-F2E0-4E19-B480-183FC7263463}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FF57ADC6-D313-4111-9625-82BE2C79E398}
