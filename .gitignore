@@ -3,6 +3,10 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
+
+# release zips
+_releases/
+
 # User-specific files
 *.rsuser
 *.suo
