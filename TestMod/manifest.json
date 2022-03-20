@@ -5,6 +5,6 @@
   "Description": "My first test mod",
   "UniqueID": "Starno0d.TestMod",
   "EntryDll": "Starno0d.TestMod.dll",
-  "MinimumApiVersion": "3.13.2" //,
-  //"UpdateKeys": [ "Nexus:4922", "GitHub:ameisen/SV-SpriteMaster" ]
+  "MinimumApiVersion": "3.13.2",
+  "UpdateKeys": [ "GitHub:no0dlz/StardewModding" ] //"Nexus:4922"
 }
