@@ -1,0 +1,10 @@
+﻿{
+  "Name": "TestMod",
+  "Author": "no0dl",
+  "Version": "0.0.1",
+  "Description": "My first test mod",
+  "UniqueID": "Starno0d.TestMod",
+  "EntryDll": "TestMod.dll",
+  "MinimumApiVersion": "3.13.2" //,
+  //"UpdateKeys": [ "Nexus:4922", "GitHub:ameisen/SV-SpriteMaster" ]
+}

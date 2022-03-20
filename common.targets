@@ -1,0 +1,22 @@
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--common project properties-->
+  <PropertyGroup>
+    <Authors>no0dl</Authors>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+
+    <LangVersion>latest</LangVersion>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <EnableNETAnalyzers>true</EnableNETAnalyzers>
+  </PropertyGroup>
+
+  <!--import mod build package-->
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Win32.Registry" Version="5.0.0" ExcludeAssets="all" />
+    <PackageReference Include="Pathoschild.Stardew.ModBuildConfig" Version="4.0.0" />
+  </ItemGroup>
+
+  <!--common mod build package options-->
+  <PropertyGroup>
+    <ModZipPath>$(SolutionDir)\_releases</ModZipPath>
+  </PropertyGroup>
+</Project>
