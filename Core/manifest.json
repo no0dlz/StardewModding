@@ -5,6 +5,6 @@
   "Description": "Core library used by my mods.",
   "UniqueID": "Starno0d.Core",
   "EntryDll": "Starno0d.Core.dll",
-  "MinimumApiVersion": "3.13.2" //,
-  //"UpdateKeys": [ "Nexus:4922", "GitHub:ameisen/SV-SpriteMaster" ]
+  "MinimumApiVersion": "3.13.2",
+  "UpdateKeys": [ "GitHub:ameisen/no0dlz/StardewModding" ] //"Nexus:4922"
 }
